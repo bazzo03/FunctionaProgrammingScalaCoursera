@@ -1,0 +1,20 @@
+[0m[[0minfo[0m] [0m[32mListsSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- one plus one is two[0m[0m
+[0m[[0minfo[0m] [0m[31m- one plus one is three? *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  org.scalatest.exceptions.TestFailedException was thrown. (ListsSuite.scala:50)[0m[0m
+[0m[[0minfo[0m] [0m[32m- details why one plus one is not three[0m[0m
+[0m[[0minfo[0m] [0m[32m- intNotZero throws an exception if its argument is 0[0m[0m
+[0m[[0minfo[0m] [0m[31m- sum of a few numbers *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  java.util.NoSuchElementException: head of empty list[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.immutable.Nil$.head(List.scala:420)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.immutable.Nil$.head(List.scala:417)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at example.Lists$.sum(Lists.scala:29)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at example.Lists$.sum(Lists.scala:29)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at example.ListsSuite$$anonfun$5.apply$mcV$sp(ListsSuite.scala:117)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at example.ListsSuite$$anonfun$5.apply(ListsSuite.scala:117)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at example.ListsSuite$$anonfun$5.apply(ListsSuite.scala:117)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[32m- max of a few numbers[0m[0m
