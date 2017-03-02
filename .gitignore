@@ -1,3 +1,5 @@
-./idea
-./target
-./project
+./Week4/idea/*
+./Week4/target/*
+./project/*
+./Week4/patmat/target/*
+./Week4/patmat/project/*
